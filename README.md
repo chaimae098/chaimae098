@@ -6,10 +6,10 @@
 
 *Building systems that detect, predict, and scale.*
 
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/chaimae-kazoury-040715238)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:chaimaekaz05@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=github&logoColor=white)](https://chaimae098.github.io)
-
 </div>
 
 ---
