@@ -2,7 +2,7 @@
 
 # Hi, I'm Chaimae Kazoury 👋
 
-**AI Engineering Student · ENSAM Casablanca**
+**AI/CS Engineering Student · ENSAM Casablanca**
 
 *Building systems that detect, predict, and scale.*
 
@@ -23,8 +23,7 @@ I specialise in **anomaly detection**, **real-time monitoring systems**, **data 
 - 🌱 Learning more about **time-series forecasting** and **geospatial data systems**
 - 🗺️ Integrated **Google Maps API** in a real client project (geolocation, dynamic markers, zone search)
 - 🏆 **Oracle Certified Professional — Java SE 17** (2026)
-- 📬 Open to **PFE / PFA internship** opportunities in AI, Data, or Full-Stack
-
+  
 ---
 
 ## 🚀 Featured Projects
@@ -35,7 +34,7 @@ I specialise in **anomaly detection**, **real-time monitoring systems**, **data 
 End-to-end system that detects machine failures **before they happen** using sensor data.  
 Full preprocessing pipeline → supervised ML classifier → Django REST API → **live React dashboard with real-time alerts**.
 
-`Python` `Scikit-learn` `Django` `React` `PostgreSQL` `Time-Series`
+`Python` `Scikit-learn` `Django` `React` `PostgreSQL` 
 
 ---
 
@@ -114,8 +113,8 @@ AI system that auto-classifies IT incident tickets and recommends resolutions.
 ---
 
 <div align="center">
+- [chaimaekaz05@gmail.com](mailto:chaimaekaz05@gmail.com)
+- [www.linkedin.com/in/chaimae-kazoury-040715238](www.linkedin.com/in/chaimae-kazoury-040715238)
 
-*Currently seeking a PFE/PFA internship — available immediately*  
-📬 [chaimaekaz05@gmail.com](mailto:chaimaekaz05@gmail.com)
 
 </div>
