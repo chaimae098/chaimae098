@@ -118,20 +118,5 @@ Analysed and validated internal system data. Collaborated across teams to improv
 
 ---
 
-## GitHub Stats
-
 <div align="center">
-
-![Chaimae's GitHub Stats](https://github-readme-stats.vercel.app/api?username=chaimae098&show_icons=true&theme=default&hide_border=true&title_color=c8522a&icon_color=c8522a&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=chaimae098&layout=compact&hide_border=true&title_color=c8522a&theme=default)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=chaimae098&theme=default&hide_border=true&ring=c8522a&fire=c8522a&currStreakLabel=c8522a)
-
-</div>
-
----
-
-<div align="center">
-<i>Open to Summer 2026 internships · Anomaly Detection · MLOps · Backend Development</i>
 </div>
