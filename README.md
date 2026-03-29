@@ -1,240 +1,106 @@
-<div align="center">
+# Hi, I'm Chaimae Kazoury 👋
 
-```
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║   CHAIMAE KAZOURY  ·  AI/CS Engineer  ·  ENSAM Casablanca   ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
-```
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1000&color=C8522A&width=500&lines=AI+%26+CS+Engineering+Student+%40+ENSAM+Casablanca;Anomaly+Detection+%7C+ML+Pipelines+%7C+Full-Stack)](https://git.io/typing-svg)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3000&pause=800&color=C8522A&center=true&vCenter=true&multiline=true&width=600&height=60&lines=Anomaly+Detection+%7C+Real-Time+Systems+%7C+ML+Pipelines;Sensor+data+in+%E2%86%92+Predictions+out+%E2%86%92+Failures+caught+early)](https://git.io/typing-svg)
+![Chaimae's Stats](https://github-readme-stats.vercel.app/api?username=chaimae098&theme=default&show_icons=true&hide_border=true&count_private=true&title_color=c8522a&icon_color=c8522a)
 
-<a href="https://linkedin.com/in/chaimae-kazoury-040715238"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:chaimaekaz05@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
-<a href="https://chaimae098.github.io"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=github&logoColor=white"/></a>
-<img src="https://komarev.com/ghpvc/?username=chaimae098&style=flat-square&color=c8522a&label=profile+views"/>
+## 🚀 About Me
 
-</div>
+- 🔭 I'm currently building **[Machine Failure Detection](https://github.com/chaimae098/Machine_failure_detection)** — an end-to-end industrial ML monitoring system that detects machine failures before they happen using sensor data
+- 🧠 I specialise in **anomaly detection**, **real-time monitoring systems**, and **ML pipelines**
+- 🗺️ Integrated **Google Maps API** in a real client project (geolocation, dynamic markers, zone search)
+- 🌱 Currently exploring **time-series forecasting** and **geospatial data systems**
+- 🏅 **Oracle Certified Professional — Java SE 17** (2026)
+- 💬 Ask me about sensor data pipelines, statistical anomaly detection, or Django + React stacks
+- 📫 Reach me at **chaimaekaz05@gmail.com**
 
----
+## 🛠️ Featured Projects
 
-## `$ whoami`
+### 🔴 [Machine Failure Detection](https://github.com/chaimae098/Machine_failure_detection)
+Industrial IoT system that detects machine failures **before they happen**.
 
-3rd-year **Computer Science & AI Engineering** student at **ENSAM Casablanca**.  
-I build systems that catch what humans miss — anomalies in sensor streams, failures before they cascade, patterns buried in time-series noise.
+**Problem:** Unplanned machine downtime is costly — there's no early warning system.  
+**What I built:** Full preprocessing pipeline on sensor data → supervised ML classifier → Django REST API → live React dashboard with real-time alerts.  
+**Role:** End-to-end — data pipeline, ML model, backend API, and frontend dashboard.
 
-Currently engineering an end-to-end **industrial ML monitoring system**: raw sensor data → preprocessing pipeline → ML classifier → live React dashboard with real-time failure alerts.
-
-```python
-chaimae = {
-    "focus"      : ["anomaly detection", "real-time monitoring", "ML pipelines"],
-    "currently"  : "Machine Failure Detection — industrial IoT end-to-end system",
-    "exploring"  : ["time-series forecasting", "geospatial data systems"],
-    "certified"  : "Oracle Certified Professional — Java SE 17 (2026)",
-    "languages"  : ["🇫🇷 French C1", "🇬🇧 English C1", "🇲🇦 Arabic (native)"],
-}
-```
+`Python` `Scikit-learn` `Django` `React` `PostgreSQL`
 
 ---
 
-## `$ ls projects/`
+### 🟢 [prmon Anomaly Detection](https://github.com/chaimae098/prmon-anomaly-detection)
+Automated anomaly detection on process-monitoring metrics.
 
-<details>
-<summary><b>🔴 Machine Failure Detection</b> — <i>Industrial IoT · Anomaly Detection · Full-Stack ML</i></summary>
+**Problem:** Abnormal system behaviour hides in metric streams — no one notices until it's too late.  
+**What I built:** Time-series pipeline using z-score, IQR, and rolling statistics to flag anomalies automatically. Reusable on any sensor or system stream.  
+**Role:** Designed the full detection pipeline and statistical method combination.
 
-<br>
-
-**Problem solved:** Machines fail without warning — costly downtime, lost production. This system catches the signal *before* the breakdown.
-
-**My role:** Designed the full system end-to-end — from raw sensor ingestion to live dashboard.
-
-**What I built:**
-- Full preprocessing pipeline: normalization, missing-value imputation, feature engineering on sensor signals
-- Supervised ML classifier (Scikit-learn) to classify machine health state
-- Django REST API exposing model predictions
-- React dashboard with real-time alert system
-
-**Stack:** `Python` `Scikit-learn` `Django` `React` `PostgreSQL`
-
-```python
-# Feature engineering on sensor signals
-def compute_rolling_features(df, window=10):
-    df['mean_vibration'] = df['vibration'].rolling(window).mean()
-    df['std_vibration']  = df['vibration'].rolling(window).std()
-    df['peak_to_peak']   = df['vibration'].rolling(window).max() \
-                         - df['vibration'].rolling(window).min()
-    return df.dropna()
-```
-
-🔗 [**github.com/chaimae098/Machine\_failure\_detection**](https://github.com/chaimae098/Machine_failure_detection) · `in progress`
-
-</details>
+`Python` `Pandas` `NumPy` `Time-Series Analysis`
 
 ---
 
-<details>
-<summary><b>🟢 prmon Anomaly Detection</b> — <i>Process Monitoring · Statistical Methods · Time-Series</i></summary>
+### 🔵 [IncidAI — Intelligent Incident Classification](https://github.com/AgorAI-Hackathon/IncidAI)
+AI system that auto-classifies IT incident tickets and recommends resolutions.
 
-<br>
+**Problem:** IT teams waste hours manually triaging tickets every day.  
+**What I built:** XGBoost + BERT embeddings for classification · FAISS semantic search over resolved tickets · FastAPI ML microservice · Django REST backend · React UI.  
+**Role:** Led the ML pipeline and semantic search component, integrated into the full-stack system.
 
-**Problem solved:** Process monitoring metrics (prmon) accumulate silently — nobody notices drift until it's too late.
-
-**My role:** Designed the detection pipeline, chose and combined statistical methods, made it generic enough to plug into any sensor stream.
-
-**What I built:**
-- Time-series analysis on system monitoring data
-- Combined z-score, IQR, and rolling statistics for robust flagging
-- Reusable pipeline — drop any sensor CSV in, anomalies come out
-
-**Stack:** `Python` `Pandas` `NumPy` `Time-Series Analysis`
-
-```python
-def detect_anomalies(series, window=20, z_thresh=3.0):
-    rolling_mean = series.rolling(window).mean()
-    rolling_std  = series.rolling(window).std()
-    z_scores     = (series - rolling_mean) / rolling_std
-
-    q1, q3 = series.quantile(0.25), series.quantile(0.75)
-    iqr     = q3 - q1
-
-    anomalies = (z_scores.abs() > z_thresh) | \
-                (series < q1 - 1.5*iqr) | \
-                (series > q3 + 1.5*iqr)
-    return anomalies
-```
-
-🔗 [**github.com/chaimae098/prmon-anomaly-detection**](https://github.com/chaimae098/prmon-anomaly-detection)
-
-</details>
+`XGBoost` `BERT` `FAISS` `FastAPI` `Django` `React`
 
 ---
 
-<details>
-<summary><b>🔵 IncidAI — Intelligent Incident Classification</b> — <i>NLP · Microservices · Full-Stack AI</i></summary>
+## 🧰 Tech Stack
 
-<br>
+**AI & Data**
 
-**Problem solved:** IT teams waste hours manually triaging incident tickets. IncidAI automates classification and surfaces similar past resolutions instantly.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 
-**My role:** Led the ML pipeline (XGBoost + BERT embeddings) and the semantic search component (FAISS). Integrated everything into the FastAPI microservice.
+**Backend & APIs**
 
-**What I built:**
-- XGBoost classifier on BERT semantic embeddings for ticket classification
-- FAISS vector index for fast semantic search over resolved incidents
-- FastAPI ML microservice consumed by a Django REST backend
-- React UI for real-time classification and resolution suggestions
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
 
-**Stack:** `XGBoost` `BERT` `FAISS` `FastAPI` `Django` `React`
+**Frontend**
 
-```python
-# Semantic search over resolved incidents
-import faiss, numpy as np
-from sentence_transformers import SentenceTransformer
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-model = SentenceTransformer('all-MiniLM-L6-v2')
+**Databases & Tools**
 
-def build_index(resolved_tickets):
-    embeddings = model.encode(resolved_tickets)
-    index = faiss.IndexFlatL2(embeddings.shape[1])
-    index.add(np.array(embeddings, dtype='float32'))
-    return index
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-def find_similar(query, index, resolved_tickets, k=3):
-    q_emb = model.encode([query]).astype('float32')
-    _, ids = index.search(q_emb, k)
-    return [resolved_tickets[i] for i in ids[0]]
-```
+## 🏆 Certifications
 
-🔗 [**github.com/AgorAI-Hackathon/IncidAI**](https://github.com/AgorAI-Hackathon/IncidAI)
+- 🏅 Oracle Certified Professional — Java SE 17 Developer (2026)
+- ☁️ Oracle Cloud Infrastructure Foundations Associate (2025)
+- 📊 Data Visualization — Kaggle
+- 💻 C Essentials 1 — Cisco
 
-</details>
+## 💼 Experience
 
----
+**Web Development Intern · S B Solutions, Casablanca** *(Jan – Mar 2026)*  
+Built a full-stack platform (React + Spring Boot) connecting clients with local service providers. Delivered features, participated in code reviews and sprint planning.
 
-## `$ cat skills.txt`
+**IT Intern · Fiscinfo, Casablanca** *(Jun – Aug 2025)*  
+Analysed and validated internal system data. Collaborated across teams to improve data processing and reporting workflows.
 
-```
-┌─────────────────────────────────────────────────────────┐
-│  AI & Anomaly Detection                                 │
-│  ── Isolation Forest, z-score, IQR, rolling stats      │
-│  ── XGBoost, BERT embeddings, supervised classification │
-│  ── Model evaluation, false positive reduction          │
-│                                                         │
-│  Data Engineering                                       │
-│  ── Sensor data preprocessing & feature engineering    │
-│  ── Time-series analysis · Pandas · NumPy               │
-│                                                         │
-│  Backend & APIs                                         │
-│  ── Django (intermediate) · FastAPI · REST APIs         │
-│  ── Spring Boot · Laravel (intermediate)                │
-│                                                         │
-│  Frontend & Dashboards                                  │
-│  ── React · JavaScript · HTML/CSS                       │
-│                                                         │
-│  Databases                                              │
-│  ── PostgreSQL · Oracle SQL · Relational design         │
-│                                                         │
-│  Languages                                              │
-│  ── Python (advanced) · Java (Oracle certified)         │
-│  ── C · JavaScript · C++ (beginner)                     │
-│                                                         │
-│  Tools                                                  │
-│  ── Git · Linux (Ubuntu) · Postman · Scrum              │
-└─────────────────────────────────────────────────────────┘
-```
+## 📊 GitHub Stats
 
----
-
-## `$ cat experience.log`
-
-```
-[Jan–Mar 2026]  Web Dev Intern · S B Solutions, Casablanca
-                → Full-stack platform: React + Spring Boot
-                → Connected clients with local service providers
-                → Code reviews · Sprint planning · Feature delivery
-
-[Jun–Aug 2025]  IT Intern · Fiscinfo, Casablanca
-                → Internal data analysis & validation
-                → Cross-team workflows for data reporting pipelines
-```
-
----
-
-## `$ cat certifications.txt`
-
-```
-[2026]  Oracle Certified Professional — Java SE 17 Developer  🏅
-[2025]  Oracle Cloud Infrastructure Foundations Associate     ☁️
-        Data Visualization — Kaggle                           📊
-        C Essentials 1 — Cisco                                💻
-```
-
----
-
-## `$ git log --stats`
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=chaimae098&show_icons=true&theme=default&hide_border=true&title_color=c8522a&icon_color=c8522a&text_color=333333&bg_color=ffffff)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=chaimae098&layout=compact&hide_border=true&title_color=c8522a&theme=default&text_color=333333&bg_color=ffffff)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=chaimae098&layout=compact&hide_border=true&title_color=c8522a&theme=default)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=chaimae098&theme=default&hide_border=true&ring=c8522a&fire=c8522a&currStreakLabel=c8522a)
 
-</div>
-
 ---
 
 <div align="center">
-
-```
-╔══════════════════════════════════════════════╗
-║  Open to Summer 2026 internships             ║
-║  Anomaly Detection · MLOps · Backend / APIs  ║
-╚══════════════════════════════════════════════╝
-```
-
-*Last updated: 2026 · ENSAM Casablanca*
-
+  <i>Open to Summer 2026 internships · Anomaly Detection · MLOps · Backend</i><br><br>
+  <a href="https://linkedin.com/in/chaimae-kazoury-040715238"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:chaimaekaz05@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
+  <a href="https://chaimae098.github.io"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=github&logoColor=white"/></a>
 </div>
